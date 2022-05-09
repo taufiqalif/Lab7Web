@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(32, 32, 32);
+  background-color: #919ef6;
+}
+
+.biodata {
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+}
+
+.kotak {
+  width: 350px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 50px auto;
+  padding: 20px 20px;
+}
+
+.output {
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.nama {
+  /*membuat lebar form penuh*/
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol {
+  background: #46de4b;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
