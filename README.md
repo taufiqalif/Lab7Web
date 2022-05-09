@@ -4,6 +4,8 @@ PHP: Hypertext Preprocessor atau hanya PHP saja, adalah bahasa skrip dengan fung
 
 ## langkah - langkah praktikum 7
 
+![00.png](img/00.png)
+
 1. membuat file `lab7web.php`
 
 2. membuat document HTML
