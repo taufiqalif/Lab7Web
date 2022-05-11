@@ -35,11 +35,11 @@
   <div class="output">
   <?php 
     // nama
-    echo 'nama saya ' . $_POST['nama'];
+    echo 'nama saya ' . @$_POST['nama'];
     echo '<br>';
 
     // tanggal lahir
-    $tanggal_lahir = new DateTime($_POST['tanggal']);
+    $tanggal_lahir = new DateTime(@$_POST['tanggal']);
     $sekarang = new DateTime("today");
     if ($tanggal_lahir > $sekarang) { 
     $thn = "0";
@@ -53,13 +53,13 @@
     echo '<br>';
 
     // pekerjaan
-    echo 'pekerjaan pekerjaan saya ' . $_POST['job'];
+    echo 'pekerjaan pekerjaan saya ' . @$_POST['job'];
     echo '<br>';
-    if ($_POST['job'] == 'programer') {
+    if (@$_POST['job'] == 'programer') {
       echo 'gaji saya 12 juta';
-    } elseif ($_POST['job'] == 'designer') {
+    } elseif (@$_POST['job'] == 'designer') {
       echo 'gaji saya 10 juta';
-    } elseif ($_POST['job'] == 'manager') {
+    } elseif (@$_POST['job'] == 'manager') {
       echo 'gaji saya 8 juta';
     } else {
       echo 'anda tidak punya pekerjaan';

@@ -25,7 +25,7 @@
 
   <h2>Predefine Variable $_GET</h2>
   <?php 
-  echo 'selamat datang ' . $_GET['nama'];
+  echo 'selamat datang ' . @$_GET['nama'];
 ?>
 
 
