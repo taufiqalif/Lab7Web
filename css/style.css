@@ -18,10 +18,11 @@ body {
 
 .kotak {
   width: 350px;
-  background: white;
+  background: rgb(255, 255, 255);
   /*meletakkan form ke tengah*/
   margin: 50px auto;
   padding: 20px 20px;
+  border-radius: 10px;
 }
 
 .output {
@@ -51,4 +52,5 @@ label {
   border: none;
   border-radius: 3px;
   padding: 10px 20px;
+  cursor: pointer;
 }

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>PHP Dasar</title>
 </head>
 
@@ -29,11 +29,11 @@
         <option value="manager">Manager</option>
       </select>
       <br>
-      <input type="submit" class="tombol" name="submit" value="Submit">  
+      <input type="submit" class="tombol" name="submit" value="Submit">
     </form>
-  
-  <div class="output">
-  <?php 
+
+    <div class="output">
+      <?php 
     // nama
     echo 'nama saya ' . @$_POST['nama'];
     echo '<br>';
@@ -65,7 +65,7 @@
       echo 'anda tidak punya pekerjaan';
     }
   ?>
-  </div>
+    </div>
   </div>
 </body>
 
