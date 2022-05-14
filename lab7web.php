@@ -18,10 +18,10 @@
       <label for="">Nama</label>
       <input class="nama" type="text" name="nama" id="">
       <br>
-      <label for="">tanggal lahir</label>
+      <label for="">Tanggal Lahir</label>
       <input class="nama" type="date" name="tanggal" value="">
       <br>
-      <label for="job">pekerjaan</label>
+      <label for="job">Pekerjaan</label>
       <select class="nama" name="job" id="job">
         <option value="pilih">Pilih...</option>
         <option value="programer">Programmer</option>
